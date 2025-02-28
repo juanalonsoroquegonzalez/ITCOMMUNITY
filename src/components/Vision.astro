@@ -1,0 +1,19 @@
+---
+const {
+  title = "Empowering Educators with Tech Solutions",
+  description = "Welcome to ITUNIVERSITY, your trusted partner in educational technology solutions based in the vibrant city of Puebla de Zaragoza, Puebla, México. We specialize in providing innovative tech-driven learning tools and resources designed to empower educational institutions and enhance the educational experience. Our dedicated team of experts is committed to delivering tailored solutions that meet the unique needs of each client, ensuring students and educators have access to cutting-edge technology that fosters an engaging and effective learning environment. Join us in transforming education through technology excellence.",
+  buttonText = "Botón"
+} = Astro.props;
+---
+<div class="relative w-full bg-black">
+    <svg class="w-full h-30" viewBox="0 0 1440 120">
+      <path fill="#080A49" d="M0,80L720,120L1440,80L1440,0L0,0Z"></path>
+    </svg>
+  </div>
+  
+  <div class="font-sans relative bg-black text-white py-24 w-full">
+    <div class="container mx-auto px-4 text-center relative">
+      <h2 class="text-3xl font-bold mb-4">{title}</h2>
+      <p class="text-sm mb-8 max-w-2xl mx-auto">{description}</p>
+    </div>
+  </div>
