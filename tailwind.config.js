@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Open Sans", "sans-serif"],  // Fuente predeterminada para 'font-sans'
-        nunito: ['Nunito', 'sans-serif'],  // Añadido para usar 'Nunito'
+        sans: ['Inter', 'sans-serif'], // Para el cuerpo del texto
+        heading: ['Montserrat', 'sans-serif'], // Para los títulos
       },
       colors: {
         'principal': '#080A49',
